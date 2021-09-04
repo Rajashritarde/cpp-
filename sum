@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+template<class c1,class c2>
+void sum(c1 a,c2 b)
+{
+	cout<<"sum of ="<<a+b;
+}
+int main()
+{
+    int a,b;
+	float x,y;
+	cout<<"\n enter two intiger";
+	cin>>a>>b;
+	cout<<"\n enter two float";
+	cin>>x>>y;
+	sum(a,b);
+	sum(a,y);
+	sum(a,x);
+	sum(x,y);
+}
+
